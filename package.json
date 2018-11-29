@@ -1,0 +1,20 @@
+{
+  "name": "codekits-next-boilerplate",
+  "version": "1.0.0",
+  "description": "A NextJS Boilerplate with Basic functionality.",
+  "repository": "https://github.com/serranoarevalo/codekits-next-boilerplate",
+  "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}
